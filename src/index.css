@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button-chose {
+    background-color: rgb(156, 72, 235);
+    border-radius: 15px;
+    height: 50px;
+    font-weight: 900 !important;
+}
+
+.button-chose:hover {
+    background-color: rgb(142, 45, 234);
+}
+
+.button-conferma {
+    background-color: rgb(230, 72, 235);
+    border-radius: 15px;
+    height: 50px;
+    font-weight: 900 !important;
+}
+
+.button-conferma:hover {
+    background-color: rgb(230, 40, 237);
+}
+
+.button-chose.active {
+    background-color: rgb(115, 2, 222);
+    color: white;
+    border: 2px solid rgb(174, 174, 174);
+}
+
+.editButton {
+    background-color: rgb(230, 72, 235);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.editButton:hover {
+    background-color: rgb(230, 40, 237);
+}
+
+.modalButton {
+    background-color: rgb(156, 72, 235);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.modalButton:hover {
+    background-color: rgb(142, 45, 234);
+}
+.btn-close:focus {
+    outline: none; /* Rimuove il bordo predefinito */
+    border: 2px solid rgb(142, 45, 234);
+    box-shadow: 0 0 8px 4px rgba(142, 45, 234, 0.5);
+}
+
+.form-control:focus{
+    outline: none;
+    border: 2px solid rgb(142, 45, 234);
+    box-shadow: 0 0 8px 4px rgba(142, 45, 234, 0.5);
+}
